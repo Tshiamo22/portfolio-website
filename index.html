@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title> 
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/"><h1>Tshiamo Litaunyane</h1></a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ontshiametse-litaunyane/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto: litaunyaneontshiametse@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+            </a>
+            
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section 1 : Tshiamo -->
+        <section class="tshiamo-section">
+              <div class="text">
+                <h2>Hi, I'm Tshiamo!</h2>
+                <p>
+                    Detail-oriented IT professional with hands-on experience in troubleshooting, technical support, and data analysis. Proficient in software and hardware diagnostics, with a strong foundation in programming and system management. Skilled in problem-solving, technical documentation, and customer service, with a commitment to enhancing user experiences and optimizing technical processes. Seeking to transition into a junior software development role to apply software engineering skills and programming knowledge in a team-driven environment.
+                </p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#experience">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+
+              </div>
+
+              <div class="myphoto">
+                <img src="images/tshiamo.webp" alt="Tshiamo Litaunyane">
+              </div>
+
+        </section>
+
+        <!-- Section 2 : Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quae aperiam corrupti odio dolore, ipsa obcaecati nostrum delectus reiciendis soluta nesciunt dolor distinctio repellat ab porro voluptatem similique. Assumenda, odio?
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                <img src="logos/html-logo.webp" alt="html logo">
+                <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                <img src="logos/css-logo.webp" alt="css logo">
+                <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                <img src="logos/javascript-logo.webp" alt="javascript logo">
+                <span>JavaScript</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section 3 : Experience -->
+        <section id="experience" class="experience-section">
+            <h2>Experience Summary</h2>  
+            <div class="group">
+                <div class="headshot">
+                <img src="./images/headshot.webp" alt="headshot">
+
+                <p>
+                I have experience across IT support, operational analysis, and risk and compliance roles. I started my career in IT as a Service Desk Agent and Field Support Engineer, where I supported users, troubleshot systems, and worked with technologies such as Active Directory, Office 365, and networking. I later transitioned into analytical roles, and I am currently a Risk and Compliance Analyst, where I analyse operational data, support process improvements, and work closely with business and technical stakeholders to ensure compliance and effective system usage.
+                </p>
+                
+                </div>
+            </div>   
+
+            
+
+        </section>
+
+        <!-- Section 4 : Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis deserunt harum quam maxime consequuntur quasi beatae, recusandae delectus esse nesciunt, rem voluptatibus accusantium. Minus distinctio vel alias, nostrum, numquam quisquam earum, aut omnis facilis unde illum blanditiis maxime quibusdam ullam. Doloribus quibusdam tenetur aperiam rerum! Voluptatibus deserunt explicabo inventore voluptatum.
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
