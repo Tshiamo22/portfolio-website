@@ -74,6 +74,12 @@ nav .right a span{
     flex: 8;
 }
 
+.tshiamo-section .text p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 .tshiamo-section .myphoto{
     flex: 2;
     display: flex;
@@ -122,7 +128,7 @@ nav .right a span{
 
 .skills-section .text{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .skills-section .cells{
@@ -229,6 +235,7 @@ nav .right a span{
 .contact-section .group .text{
     flex: 3;
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .contact-section .group form {
